@@ -41,6 +41,7 @@ export default class PatientCreate extends React.Component{
     }
 
     bookAppointment = () => {
+        
         const nameField = new  RegExp('^[a-zA-Z\\s]{3,}$');
         const mobileNumber = new RegExp('^[0-9]{10}$');
         const addressFormat = new RegExp('^[a-zA-Z\\s.,&0-9]{3,}$');
